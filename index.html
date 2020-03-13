@@ -19,14 +19,14 @@
                 <h3>Astronaut Chat</h3>
                 <p>Houston, we are ready when you are!</p>
             </div>
-            <div id = "shuttleBackground" style = "position: relative;">
-                <img src = "LaunchCode_rocketline_white.png" height = "75" width = "75" id = "rocket"/>
+            <div id = "shuttleBackground" style = "position: initial;">
+                <img style="position: relative; top: 250px; right: 0px;" src = "LaunchCode_rocketline_white.png" height = "75" width = "75" id = "rocket"/>
             </div>
             <div style = "text-align: center; display: inline-block;">
-                    <button>Up</button>
-                    <button>Down</button>
-                    <button>Right</button>
-                    <button>Left</button>
+                    <button onclick="moveRocket('up');">Up</button>
+                    <button onclick="moveRocket('down');">Down</button>
+                    <button onclick="moveRocket('right');">Right</button>
+                    <button onclick="moveRocket('left');">Left</button>
                     <h3>Space Shuttle Height</h3>
                     <p id='spaceShuttleHeight'>0</p><p style = "display: inline-block;"> miles</p>
             </div>
